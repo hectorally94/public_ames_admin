@@ -4,7 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumbs/Breadcrumb";
 
 import React, { useState } from "react";
 
-const Video: React.FC = () => {
+const Youtube: React.FC = () => {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
   return (
@@ -32,4 +32,4 @@ const Video: React.FC = () => {
   );
 };
 
-export default Video;
+export default Youtube;

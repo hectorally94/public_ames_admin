@@ -43,9 +43,9 @@ import AutreType from './pages/ames/autres/AutreType';
 import Autre from './pages/ames/autres/Autre';
 import Fb from './pages/ames/links/Fb';
 import Intag from './pages/ames/links/Intag';
-import Video from './pages/ames/links/video';
-import Tweeter from './pages/ames/links/tweeter';
- 
+import Tweeter from './pages/ames/links/Tweeter';
+import Youtube from './pages/ames/links/Youtube';
+  
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const { pathname } = useLocation();
@@ -419,7 +419,7 @@ function App() {
       element={
         <>
           <PageTitle title="Youtube" />
-          <Video />
+          <Youtube />
         </>
       }
     /> 
